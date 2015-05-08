@@ -1,0 +1,10 @@
+Package: base-files-juntadados
+Maintainer: Marcelo Soares Souza <marcelo@juntadados.org>
+Version: 6
+Architecture: amd64
+Pre-Depends: awk, base-files, desktop-base, debian-installer-launcher
+Essential: yes
+Priority: required
+Multi-Arch: foreign
+Replaces: base-files, desktop-base, debian-installer-launcher
+Description: juntaDados GNU/Linux base system
