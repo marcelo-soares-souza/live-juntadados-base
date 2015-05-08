@@ -41,6 +41,7 @@ mkdir -p config/bootloaders
 cp -rf ../live-juntadados-base/isolinux config/bootloaders/
 cp -rf ../live-juntadados-base/src/rootskel-juntadados/usr/ config/includes.installer/
 cp -rf ../live-juntadados-base/etc config/includes.chroot/
+mkdir config/includes.chroot/etc/skel/Área\ de\ trabalho/
 cp ../live-juntadados-base/sources.list config/archives/
 cp ../live-juntadados-base/debs/base-files-juntadados_6_amd64.deb config/packages.chroot
 cp ../live-juntadados-base/debs/base-files-juntadados_6_amd64.deb config/packages.binary
