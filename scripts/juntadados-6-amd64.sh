@@ -38,12 +38,12 @@ echo debian-installer-launcher >> config/package-lists/desktop.list.binary
 
 mkdir -p config/bootloaders
 
-cp -rf ../base/isolinux config/bootloaders/
-cp -rf ../base/src/rootskel-juntadados/usr/ config/includes.installer/
-cp -rf ../base/etc config/includes.chroot/
-cp ../base/sources.list config/archives/
-cp ../base/debs/base-files-juntadados_6_amd64.deb config/packages.chroot
-cp ../base/debs/base-files-juntadados_6_amd64.deb config/packages.binary
+cp -rf ../live-juntadados-base/isolinux config/bootloaders/
+cp -rf ../live-juntadados-base/src/rootskel-juntadados/usr/ config/includes.installer/
+cp -rf ../live-juntadados-base/etc config/includes.chroot/
+cp ../live-juntadados-base/sources.list config/archives/
+cp ../live-juntadados-base/debs/base-files-juntadados_6_amd64.deb config/packages.chroot
+cp ../live-juntadados-base/debs/base-files-juntadados_6_amd64.deb config/packages.binary
 
 echo "d-i debian-installer/language string pt_BR" >> config/includes.installer/preseed.cfg
 echo "d-i debian-installer/country string BR" >> config/includes.installer/preseed.cfg
