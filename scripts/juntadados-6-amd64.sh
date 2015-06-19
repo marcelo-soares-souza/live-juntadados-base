@@ -28,6 +28,7 @@ echo task-brazilian-portuguese >> config/package-lists/desktop.list
 echo task-brazilian-portuguese-desktop >> config/package-lists/desktop.list
 echo virtualbox-guest-dkms >> config/package-lists/desktop.list
 echo virtualbox-guest-x11 >> config/package-lists/desktop.list
+echo grub2 >> config/package-lists/grub.list
 
 echo debian-installer-launcher >> config/package-lists/desktop.list.chroot
 echo debian-installer-launcher >> config/package-lists/desktop.list.binary

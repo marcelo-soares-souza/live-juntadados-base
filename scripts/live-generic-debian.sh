@@ -22,6 +22,7 @@ echo net-tools gimp inkscape eog gthumb evince rar unrar zip unzip p7zip-full bz
 echo openjdk-7-jre brasero vlc libav-tools audacious gcalctool bumblebee git git-svn subversion >> config/package-lists/misc.list
 echo wireshark xsane hdparm gpm pxz lbzip2 build-essential libncurses5-dev ruby-full python3 python3-pip gedit file-roller >> config/package-lists/misc.list
 echo virtualbox-guest-dkms virtualbox-guest-x11 >> config/package-lists/virtualbox.list
+echo grub2 >> config/package-lists/grub.list
 
 echo debian-installer-launcher >> config/package-lists/desktop.list.chroot
 echo debian-installer-launcher >> config/package-lists/desktop.list.binary
